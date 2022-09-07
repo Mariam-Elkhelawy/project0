@@ -11,19 +11,37 @@ class AppButton extends StatelessWidget {
       child: Container(
         height: 60,
         width: 350,
-        alignment: Alignment.center,
-        child: MyText(
-          title:'Go to Checkout',
-          fontSize: 20,
-          fontWeight: FontWeight.bold,
-          color:kWhiteColor,
+        child: Row(
+          children: [
+            SizedBox(
+              width: 100,
+            ),
+            MyText(
+              title: 'Go to Checkout',
+              textAlign: TextAlign.center,
+              fontSize: 20,
+              fontWeight: FontWeight.bold,
+              color: kWhiteColor,
+            ),
+            SizedBox(width: 50),
+            Container( width: 50,
+              height: 25,
+              decoration: BoxDecoration(borderRadius: BorderRadius.circular(8),
+                  shape: BoxShape.rectangle, color: Colors.black12),
+              child: Center(
+                child: MyText(
+                  title: '\$12.96',
+                  color: kWhiteColor,
+                  textAlign: TextAlign.end,
+                ),
+              ),
+            ),
+          ],
         ),
         decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(12),
-          color:Color(0xFF53B175),
+          color: Color(0xFF53B175),
         ),
-
-
       ),
     );
   }

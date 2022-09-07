@@ -25,10 +25,13 @@ class View extends StatelessWidget {
         child: Column(
           children: [
             Divider(
-            thickness: 1,
-            height: 2,
-            color: kGreyColor,
-          ),
+              thickness: 1,
+              height: 2,
+              color: kGreyColor,
+            ),
+            SizedBox(
+              height: 10,
+            ),
             Row(
               children: [
                 Expanded(
@@ -70,6 +73,8 @@ class View extends StatelessWidget {
                           Row(
                             children: [
                               Container(
+                                height: 40,
+                                width: 40,
                                 decoration: BoxDecoration(
                                     shape: BoxShape.rectangle,
                                     borderRadius: BorderRadius.circular(12),
@@ -83,15 +88,21 @@ class View extends StatelessWidget {
                                   onPressed: () {},
                                 ),
                               ),
-                              SizedBox(width: 10,),
+                              SizedBox(
+                                width: 10,
+                              ),
                               MyText(
-                                title: '1',fontSize: 16,fontWeight: FontWeight.bold,
+                                title: '1',
+                                fontSize: 16,
+                                fontWeight: FontWeight.bold,
                                 color: kPrimaryColor,
                               ),
                               SizedBox(
                                 width: 10,
                               ),
                               Container(
+                                height: 40,
+                                width: 40,
                                 decoration: BoxDecoration(
                                     shape: BoxShape.rectangle,
                                     borderRadius: BorderRadius.circular(12),
@@ -130,18 +141,25 @@ class View extends StatelessWidget {
                         padding: const EdgeInsets.only(top: 20),
                         child: Text(
                           '\$4.99',
-                          style: TextStyle(fontSize: 18,fontWeight: FontWeight.bold),
+                          style: TextStyle(
+                              fontSize: 18, fontWeight: FontWeight.bold),
                         ),
                       ),
                     ],
                   ),
                 ),
               ],
-            ),SizedBox(height: 20,),
+            ),
+            SizedBox(
+              height: 20,
+            ),
             Divider(
               thickness: 1,
               height: 2,
               color: kGreyColor,
+            ),
+            SizedBox(
+              height: 13,
             ),
             Row(
               children: [
@@ -184,6 +202,8 @@ class View extends StatelessWidget {
                           Row(
                             children: [
                               Container(
+                                height: 40,
+                                width: 40,
                                 decoration: BoxDecoration(
                                     shape: BoxShape.rectangle,
                                     borderRadius: BorderRadius.circular(12),
@@ -197,15 +217,21 @@ class View extends StatelessWidget {
                                   onPressed: () {},
                                 ),
                               ),
-                              SizedBox(width: 10,),
+                              SizedBox(
+                                width: 10,
+                              ),
                               MyText(
-                                title: '1' ,fontSize: 16,fontWeight: FontWeight.bold,
+                                title: '1',
+                                fontSize: 16,
+                                fontWeight: FontWeight.bold,
                                 color: kPrimaryColor,
                               ),
                               SizedBox(
                                 width: 10,
                               ),
                               Container(
+                                height: 40,
+                                width: 40,
                                 decoration: BoxDecoration(
                                     shape: BoxShape.rectangle,
                                     borderRadius: BorderRadius.circular(12),
@@ -244,19 +270,27 @@ class View extends StatelessWidget {
                         padding: const EdgeInsets.only(top: 20),
                         child: Text(
                           '\$1.99',
-                          style: TextStyle(fontSize: 18,fontWeight: FontWeight.bold),
+                          style: TextStyle(
+                              fontSize: 18, fontWeight: FontWeight.bold),
                         ),
                       ),
                     ],
                   ),
                 ),
               ],
-            ),SizedBox(height: 20,),
+            ),
+            SizedBox(
+              height: 20,
+            ),
             Divider(
               thickness: 1,
               height: 2,
               color: kGreyColor,
-            ),Row(
+            ),
+            SizedBox(
+              height: 13,
+            ),
+            Row(
               children: [
                 Expanded(
                   flex: 2,
@@ -297,6 +331,8 @@ class View extends StatelessWidget {
                           Row(
                             children: [
                               Container(
+                                height: 40,
+                                width: 40,
                                 decoration: BoxDecoration(
                                     shape: BoxShape.rectangle,
                                     borderRadius: BorderRadius.circular(12),
@@ -310,15 +346,21 @@ class View extends StatelessWidget {
                                   onPressed: () {},
                                 ),
                               ),
-                              SizedBox(width: 10,),
+                              SizedBox(
+                                width: 10,
+                              ),
                               MyText(
-                                title: '1' ,fontSize: 16,fontWeight: FontWeight.bold,
+                                title: '1',
+                                fontSize: 16,
+                                fontWeight: FontWeight.bold,
                                 color: kPrimaryColor,
                               ),
                               SizedBox(
                                 width: 10,
                               ),
                               Container(
+                                height: 40,
+                                width: 40,
                                 decoration: BoxDecoration(
                                     shape: BoxShape.rectangle,
                                     borderRadius: BorderRadius.circular(12),
@@ -357,19 +399,27 @@ class View extends StatelessWidget {
                         padding: const EdgeInsets.only(top: 20),
                         child: Text(
                           '\$3.00',
-                          style: TextStyle(fontSize: 18,fontWeight: FontWeight.bold),
+                          style: TextStyle(
+                              fontSize: 18, fontWeight: FontWeight.bold),
                         ),
                       ),
                     ],
                   ),
                 ),
               ],
-            ),SizedBox(height: 20,),
+            ),
+            SizedBox(
+              height: 20,
+            ),
             Divider(
               thickness: 1,
               height: 2,
               color: kGreyColor,
-            ),Row(
+            ),
+            SizedBox(
+              height: 13,
+            ),
+            Row(
               children: [
                 Expanded(
                   flex: 2,
@@ -392,7 +442,7 @@ class View extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
                           MyText(
-                            title:'Ginger',
+                            title: 'Ginger',
                             fontWeight: FontWeight.bold,
                             color: kPrimaryColor,
                             fontSize: 20,
@@ -410,6 +460,8 @@ class View extends StatelessWidget {
                           Row(
                             children: [
                               Container(
+                                height: 40,
+                                width: 40,
                                 decoration: BoxDecoration(
                                     shape: BoxShape.rectangle,
                                     borderRadius: BorderRadius.circular(12),
@@ -423,15 +475,21 @@ class View extends StatelessWidget {
                                   onPressed: () {},
                                 ),
                               ),
-                              SizedBox(width: 10,),
+                              SizedBox(
+                                width: 10,
+                              ),
                               MyText(
-                                title: '1' ,fontSize: 16,fontWeight: FontWeight.bold,
+                                title: '1',
+                                fontSize: 16,
+                                fontWeight: FontWeight.bold,
                                 color: kPrimaryColor,
                               ),
                               SizedBox(
                                 width: 10,
                               ),
                               Container(
+                                height: 40,
+                                width: 40,
                                 decoration: BoxDecoration(
                                     shape: BoxShape.rectangle,
                                     borderRadius: BorderRadius.circular(12),
@@ -470,17 +528,23 @@ class View extends StatelessWidget {
                         padding: const EdgeInsets.only(top: 20),
                         child: Text(
                           '\$2.99',
-                          style: TextStyle(fontSize: 18,fontWeight: FontWeight.bold),
+                          style: TextStyle(
+                              fontSize: 18, fontWeight: FontWeight.bold),
                         ),
                       ),
                     ],
                   ),
                 ),
               ],
-            ),SizedBox(height: 20,),
-
-        SizedBox(height: 20,),
-        AppButton()  ],
+            ),
+            SizedBox(
+              height: 20,
+            ),
+            SizedBox(
+              height: 15,
+            ),
+            AppButton()
+          ],
         ),
       ),
     );
